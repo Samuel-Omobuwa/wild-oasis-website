@@ -1,13 +1,18 @@
-import React from 'react';
-import Image from 'next/image';
-import bgImg from '../public/bg.png';
-import Link from 'next/link';
-
+import React from "react";
+import Image from "next/image";
+import bgImg from "../public/bg.png";
+import Link from "next/link";
 
 export default function Page() {
   return (
-      <main className="mt-24">
-      <Image src={bgImg} alt="Mountains and forests with two cabins" />
+    <main className="mt-24">
+      <Image
+        src={bgImg}
+        fill
+        placeholder="blur"
+        className="absolute object-top inset-0 object-cover z-0"
+        alt="Mountains and forests with two cabins"
+      />
 
       <div className="relative z-10 text-center">
         <h1 className="text-8xl text-primary-50 mb-10 tracking-tight font-normal">
