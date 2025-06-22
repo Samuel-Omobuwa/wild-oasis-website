@@ -2,12 +2,15 @@ import Logo from "./_components/Logo";
 import "@/app/_styles/globals.css";
 
 import {Josefin_Sans} from "next/font/google";
-import Header from "./_components/Header";
+
 
 const josefin = Josefin_Sans({
   subsets: ["latin"],
   display: "swap"
 })
+
+import "@/app/_styles/globals.css";
+import Header from "./_components/Header";
 
 export const metadata = {
  title: {
