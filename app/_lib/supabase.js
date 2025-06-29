@@ -1,5 +1,3 @@
-console.log("Supabase client loading...");
-
 import { createClient } from '@supabase/supabase-js';
 
 
